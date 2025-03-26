@@ -35,59 +35,59 @@ function App() {
           <div className="p-6 mt-14">
             <div className="text-2xl font-bold text-white mb-6">Ritmo Collective</div>
             <nav className="nav">
-              <ul className="flex flex-col space-y-1">
-                <li>
-                  <Link 
-                    to="/" 
-                    className="text-white hover:text-red-400 transition-colors block py-1 px-1"
-                    onClick={() => setIsDrawerOpen(false)}
-                  >
-                    Home
-                  </Link>
-                </li>
-                <li>
-                  <Link 
-                    to="/team" 
-                    className="text-white hover:text-red-400 transition-colors block py-1 px-1"
-                    onClick={() => setIsDrawerOpen(false)}
-                  >
-                    Meet the Team
-                  </Link>
-                </li>
-                <li>
-                  <Link 
-                    to="/events" 
-                    className="text-white hover:text-red-400 transition-colors block py-1 px-1"
-                    onClick={() => setIsDrawerOpen(false)}
-                  >
-                    Events
-                  </Link>
-                </li>
-                <li>
-                  <Link 
-                    to="/mixes" 
-                    className="text-white hover:text-red-400 transition-colors block py-1 px-1"
-                    onClick={() => setIsDrawerOpen(false)}
-                  >
-                    DJ Mixes
-                  </Link>
-                </li>
-              </ul>
+            <ul className="flex flex-col space-y-0.5">
+              <li>
+                <Link 
+                  to="/" 
+                  className="text-white hover:text-white hover:font-bold transition-colors block py-0.5 px-1 text-base font-medium rounded-md hover:bg-purple-900/30"
+                  onClick={() => setIsDrawerOpen(false)}
+                >
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  to="/team" 
+                  className="text-white hover:text-white hover:font-bold transition-colors block py-0.5 px-1 text-base font-medium rounded-md hover:bg-purple-900/30"
+                  onClick={() => setIsDrawerOpen(false)}
+                >
+                  Meet the Team
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  to="/events" 
+                  className="text-white hover:text-white hover:font-bold transition-colors block py-0.5 px-1 text-base font-medium rounded-md hover:bg-purple-900/30"
+                  onClick={() => setIsDrawerOpen(false)}
+                >
+                  Events
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  to="/mixes" 
+                  className="text-white hover:text-white hover:font-bold transition-colors block py-0.5 px-1 text-base font-medium rounded-md hover:bg-purple-900/30"
+                  onClick={() => setIsDrawerOpen(false)}
+                >
+                  DJ Mixes
+                </Link>
+              </li>
+            </ul>
             </nav>
           </div>
           
           <div className="mt-auto p-6 border-t border-white/10">
             <div className="social-links flex space-x-4 mb-4">
-              <a href="https://www.instagram.com/ritmocollective/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-red-400 transition-colors">
+              <a href="https://www.instagram.com/ritmocollective/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-white transition-colors">
                 <Instagram size={28} />
               </a>
-              <a href="https://soundcloud.com/ritmocollectivo" target="_blank" rel="noopener noreferrer" className="text-white hover:text-red-400 transition-colors">
+              <a href="https://soundcloud.com/ritmocollectivo" target="_blank" rel="noopener noreferrer" className="text-white hover:text-white transition-colors">
                 <Music size={28} />
               </a>
-              <a href="https://www.facebook.com/people/Ritmo-Collective/61556839276343/#" target="_blank" rel="noopener noreferrer" className="text-white hover:text-red-400 transition-colors">
+              <a href="https://www.facebook.com/people/Ritmo-Collective/61556839276343/#" target="_blank" rel="noopener noreferrer" className="text-white hover:text-white transition-colors">
                 <Facebook size={28} />
               </a>
-              <a href="https://www.youtube.com/@Ritmocollective" target="_blank" rel="noopener noreferrer" className="text-white hover:text-red-400 transition-colors">
+              <a href="https://www.youtube.com/@Ritmocollective" target="_blank" rel="noopener noreferrer" className="text-white hover:text-white transition-colors">
                 <Youtube size={28} />
               </a>
             </div>
